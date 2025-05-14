@@ -15,12 +15,46 @@ Oyuncu, bir uzay gemisinin kaptanı olarak sistemdeki arızaları tespit eder ve
 ### Sorunu bul! Hatayı çöz! Sonraki soruya ilerle!
 ---
 
-## 🧩 Teknolojiler
+## 🧩 Kullanılan Teknolojiler & Unity Özellikleri
 
 - Unity 2D & C#
-- Git & GitHub
-- VS Code
 - Photoshop
+  
+### Unity Engine
+-Proje, Unity oyun motoru ile geliştirilmiştir. Tüm scriptler Unity'nin MonoBehaviour tabanlı C# API'sini kullanır.
+
+#### C# Programlama Dili
+-Tüm oyun mantığı ve yönetimi C# diliyle yazılmıştır.
+
+#### Unity UI Sistemi
+-GameObject, Button, TextMeshProUGUI, RectTransform gibi Unity UI bileşenleri kullanılmıştır.
+-UI panelleri, görev göstergeleri, harita, ayarlar ve kontrol panelleri yönetilmektedir.
+
+#### TextMeshPro
+-Gelişmiş metin gösterimi için TextMeshPro kullanılmıştır.
+
+#### Unity VideoPlayer
+-Oyun sonu ve başarısızlık sahnelerinde video oynatmak için VideoPlayer bileşeni kullanılmıştır.
+
+#### Scene Management
+-UnityEngine.SceneManagement ile sahne geçişleri (ana menü, oyun, final, başarısızlık, pause menüsü) yönetilmektedir.
+
+#### Audio Management
+-AudioSource ve AudioListener ile arka plan müziği ve efektler kontrol edilmektedir.
+-Ses aç/kapat özelliği ve adım sesleri gibi efektler eklenmiştir.
+
+####Input Management
+-Klavye girişiyle karakter hareketi, harita açma, mini oyun başlatma ve menü kontrolleri sağlanmaktadır.
+
+#### Oyun Yönetimi (GameManager Pattern)
+
+-Görev yönetimi, panel açma/kapama, hak takibi, görev ilerlemesi gibi oyun akışı GameManager ile kontrol edilmektedir.
+
+#### Coroutine ve Animasyon
+-Coroutine ile UI panellerinde titreme efekti gibi animasyonlar yapılmıştır.
+
+#### 2D Physics
+-Karakter hareketi ve tetikleyiciler için Rigidbody2D ve Collider2D kullanılmıştır.
 
 ---
 
