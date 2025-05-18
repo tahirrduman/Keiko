@@ -43,7 +43,7 @@ Oyuncu, bir uzay gemisinin kaptanı olarak sistemdeki arızaları tespit eder ve
 -AudioSource ve AudioListener ile arka plan müziği ve efektler kontrol edilmektedir.
 -Ses aç/kapat özelliği ve adım sesleri gibi efektler eklenmiştir.
 
-####Input Management
+#### Input Management
 -Klavye girişiyle karakter hareketi, harita açma, mini oyun başlatma ve menü kontrolleri sağlanmaktadır.
 
 #### Oyun Yönetimi (GameManager Pattern)
@@ -72,6 +72,6 @@ Oyuncu, bir uzay gemisinin kaptanı olarak sistemdeki arızaları tespit eder ve
 ---
 
 ## 🎥 Oynanış Videoları
-[📹 Video 1](Docs/InGameVideo.mkv)
-[📹 Video 1](Docs/FailedVideo.mkv)
-[📹 Video 1](Docs/FinalVideo.mkv)
+[📹 InGameVideo](Docs/InGameVideo.mkv)
+[📹 FailedVideo](Docs/FailedVideo.mkv)
+[📹 FinalVideo](Docs/FinalVideo.mkv)
